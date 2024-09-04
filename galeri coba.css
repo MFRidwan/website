@@ -1,0 +1,134 @@
+.header{
+    background-color: #1F2120;
+    height: 70px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 0 20px 5px yellow;
+    margin-top: -90px;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0,.5);
+    z-index: 1000;
+}
+section nav .logo img{
+    width: 140px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+section nav ul{
+    list-style: none;
+}
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+section nav ul li a{
+    text-decoration: none;
+    color: gold;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+section nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+}
+section nav ul li a:hover::after{
+    width: 100%;
+}
+section nav ul li a:hover{
+    color: white;
+}
+section nav .icon i{
+    font-size: 18px;
+    color: #fac031;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+section nav .icon i:hover{
+    color: white;
+}
+section nav .icon i{
+    font-size: 18px;
+    color: #fac031;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+section nav .icon i:hover{
+    color: white;
+}
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+}
+.content{
+    background-color: #1F2120;
+    height: 600px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.kata{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    margin-top: 20px;
+
+}
+.box-image{
+    width: 70%;
+    height: 350px;
+    margin: 50px 100px;
+    display: flex;
+    gap: 10px;
+}
+.box-image img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1 px solid white;
+    margin-top: 60px;
+    transition: all ease-in-out 0.5s;
+}
+.box-image img:hover{
+    width: 50%;
+}
+.footer{
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    box-shadow: 0 0 15px 5px yellow;   
+}
+.garis{
+    margin-top: 100px;
+    width: 90%;
+}
